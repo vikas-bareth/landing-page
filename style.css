@@ -2,9 +2,11 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    background-color: #24252A;
+    
+}
+body {
+    margin: 0;
 }
 
 li, a, button {
@@ -18,7 +20,9 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 25px 10%;
+    margin: 0;
+    background-color: #24252A;
 }
 
 .logo {
@@ -60,6 +64,7 @@ button:hover{
     justify-content: space-evenly;
     align-items: center;
     padding: 90px;
+    background-color: #24252A;
 }
 .intro-txt {
     display: flex;
@@ -80,5 +85,21 @@ button:hover{
     color: #F9FAF8;
     margin:0;
     font-family: "Roboto",arial;
+}
+.intro-txt p{
+    font-size: 16px;
+    color:#e5e7eb;
+}
+
+.content{
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+.content h2{
+    color:#1F2937;
+    font-weight: bolder;
+    font-size: 36px;
 }
 
