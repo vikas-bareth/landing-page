@@ -91,15 +91,29 @@ button:hover{
     color:#e5e7eb;
 }
 
-.content{
-    display: flex;
-    background-color: #FFFFFF;
-    align-items: center;
-    justify-content: center;
-}
 .content h2{
+    display: block;
+    text-align: center;
     color:#1F2937;
     font-weight: bolder;
     font-size: 36px;
+}
+.content-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.content-list div img{
+    height: 230px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10%;
+}
+.content-list div p {
+    display: block;
+    text-align: center;
+    font-family: "Roboto", arial;
+    font-weight: bold;
 }
 
