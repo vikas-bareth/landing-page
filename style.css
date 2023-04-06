@@ -144,10 +144,13 @@ button:hover{
 .signup-text{
     color:#ffffff;
 }
-.signup-btn{
+.signup-btn-div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.signup-btn {
+    margin: 0px;
 }
 footer {
     display: flex;
@@ -155,4 +158,7 @@ footer {
     padding: 5px;
     background-color: #1F2937;
     color: #fff;
+}
+.intro-btn {
+    margin: 0px;
 }
